@@ -5,7 +5,7 @@ import { globalStyles } from "../../styles/gobalStyles";
 export default function AnimalsPage() {
   return (
     <>
-      <Text>I am the animals page</Text>
+      <Text style={globalStyles.heading}>I am the animals page</Text>
       <Link style={globalStyles.paragraph} href="/animals/dogs">
         Go to dogs
       </Link>
